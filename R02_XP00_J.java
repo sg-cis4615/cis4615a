@@ -1,4 +1,5 @@
-//XP00-J: Do not ignore values returned by methods 
+//Rule 02 Expressions
+//XP00-J Do not ignore values returned by methods 
 
 //Non-Compliant Code:
 //...

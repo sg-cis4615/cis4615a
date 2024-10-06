@@ -1,4 +1,5 @@
-//MET01-J: Never use assertions to validate method arguments
+//Rule 06 Methods
+//MET01-J Never use assertions to validate method arguments
 
 //Non-Compliant Code:
 //...

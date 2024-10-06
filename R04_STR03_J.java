@@ -1,4 +1,5 @@
-//STR03-J: Do not encode noncharacter data as a string
+//Rule 04 Characters and Strings
+//STR03-J Do not encode noncharacter data as a string
 
 //Non-Compliant Code:
 //...
