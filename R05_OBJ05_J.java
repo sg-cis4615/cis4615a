@@ -1,7 +1,7 @@
 //Rule 05 Object Orientation
 //OBJ05-J Do not return references to private mutable class members
 
-//Non-Compliant Code:
+//Compliant Code:
 //...
 class MutableClass {
     private Date d;
@@ -11,6 +11,6 @@ class MutableClass {
     }
 
     public Date getDate() {
-        return d;
+        return (Date)d.clone();
     }
 }
